@@ -9,7 +9,8 @@
     "nl.knaw.huygens:graphviz-wrapper:1.1"
   ],
   "repositories": [
-    "http://maven.huygens.knaw.nl/repository/"
+    "http://maven.huygens.knaw.nl/repository/",
+    "*mavenLocal"
   ],
   "imports": [
     "eu.interedition.collatex.*",
