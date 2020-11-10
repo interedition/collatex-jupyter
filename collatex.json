@@ -1,0 +1,29 @@
+{
+  "description": "CollateX – Software for Collating Textual Sources",
+  "properties": {
+    "v": "1.7.1"
+  },
+  "link": "https://github.com/interedition/collatex-jupyter",
+  "dependencies": [
+    "eu.interedition:collatex-core:$v",
+    "nl.knaw.huygens:graphviz-wrapper:1.1"
+  ],
+  "repositories": [
+    "http://maven.huygens.knaw.nl/repository/"
+  ],
+  "imports": [
+    "eu.interedition.collatex.*",
+    "eu.interedition.collatex.dekker.*",
+    "eu.interedition.collatex.simple.*",
+    "eu.interedition.collatex.matching.*",
+    "nl.knaw.huygens.graphviz.DotEngine"
+  ],
+  "init": [
+  ],
+  "initCell": [
+  ],
+  "shutdown": [
+  ],
+  "renderers": {
+  }
+}
